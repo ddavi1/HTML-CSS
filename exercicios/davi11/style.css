@@ -1,0 +1,199 @@
+@font-face {
+    font-family: 'droid';
+    src: url(fontes/idroid.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+    background-color: #C5EBD6;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: linear-gradient(to bottom,#279458, #063D1E );
+    color: white;   
+    text-align: center;
+    padding: 30px;
+  
+}
+
+header h1{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-weight: normal;
+    
+  
+}
+
+header p {
+    margin-top: 40px;
+    font-size: 20px;
+    
+}
+
+nav{
+    background-color: #063d1e;
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.689);
+    font-weight: bold;
+    
+}
+
+nav a{
+    color: #83e1ad;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-right: 15px;
+    transition-duration: .5s;
+   
+}
+
+nav a:hover{
+    background-color: #1f9653;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+main {
+    background-color: white;
+
+    box-shadow:0px 0px 4px 0px #696363;
+    max-width: 1050px;
+    min-width: 450px;
+    margin: auto;
+    padding: 30px;
+   
+}
+
+main h1{
+    font-size: 30px;
+    font-family: 'droid';
+    font-weight: normal;
+    
+}
+
+main p {
+    margin: 15px 0;
+    line-height: 2em;
+    font-size: 1em;
+    word-wrap: 20;
+    margin-top: 10px;
+    text-indent: 30px;
+    font-weight: normal;
+}
+
+a.externo::after {
+    content: '\00A0\1F517';
+}
+
+main a {
+    text-decoration: none ;
+    background-color: #98ecbc;
+    color: rgb(21, 84, 21);
+    font-weight: bold;
+}
+
+main a:hover{
+    text-decoration: underline;
+}
+
+
+article h2 {
+    background-image: linear-gradient(to right, #47c079, rgb(213, 232, 213));
+    color: rgb(12, 94, 9);
+    font-family:'droid';
+    font-weight: normal;   
+}
+
+img {
+    width: 100%;
+}
+
+img.pequena{
+    display: block;
+    width: 50%;
+    max-width: 400px;
+    margin: auto;
+}
+aside{
+    background-color: #83e1ad;
+    border-radius: 10px;
+    box-shadow:2px 3px 5px 1px #a09292;
+    padding: 10px;
+    
+}
+
+aside h3{
+    color: white;
+    text-align: center;
+    background-color: #047636;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    font-size: 25px;
+    margin: -10px;
+    
+}
+
+aside ul  {
+    list-style-type: '\2611'; /* utilizando contra barra, para mostrar um emote */
+    list-style-position: inside; 
+    columns: 2; /* forma de divisão da lista */
+}
+
+div.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #063d1e;
+    margin: 10px;
+    padding: 10px;
+  
+}
+
+/* outra forma de centralizar o video: 
+div.video{
+    background-color: var(--cor5);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+
+    position: relative;
+}
+
+div.video > iframe{
+    position:absolute;
+    top: 5% ;
+    left: 5%;
+    width: 90%;
+    height:90% ;
+
+}
+*/
+
+footer{
+    margin-top: 50px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(4, 179, 7, 0.886);
+}
+
+footer a {
+    text-decoration: none;
+    color: #14512e;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: #0a301a;
+}
